@@ -24,7 +24,8 @@ https://tethi-portfolio-17yk.onrender.com
 ## Installation
 
 1. Clone the repository:
-`` ``bash git clone [https://github.com/Tethi04/flask-portfolio.git]
+
+```bash git clone [https://github.com/Tethi04/flask-portfolio.git]
 
 [https://github.com/Tethi04/flask-portfolio]
 
@@ -68,6 +69,7 @@ MIT License
 4. Run: `python app.py`
 
 5. Visit `http://localhost:5000` in your browser
+
 
 
 
