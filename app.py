@@ -44,47 +44,39 @@ certifications = [
     }
 ]
 
-# Projects
+# Projects (Updated with live demo links)
 projects = [
     {
         'title': 'Code Treasure Hunt Web App',
         'description': 'Multi-stage coding hunt',
         'details': 'Engineered a complex web application using TypeScript, HTML, and CSS for a multi-stage coding hunt, implementing game logic and user state management. Enhanced code maintainability with static typing and designed a responsive, fast-loading architecture.',
-        'technologies': ['TypeScript', 'HTML', 'CSS', 'JavaScript'],
+        'technologies': ['TypeScript', 'HTML', 'CSS'],
         'live_demo': 'https://cth-demo.onrender.com',
-        'github_url': 'https://github.com/Tethi04/code-treasure-hunt'
-    },
-    {
-        'title': 'Flask Portfolio Website',
-        'description': 'Personal Portfolio & Web Application',
-        'details': 'Developed and deployed a responsive personal portfolio using Python Flask framework. Implemented dynamic templating with Jinja2 and custom CSS styling. Deployed live on Render with continuous integration from GitHub.',
-        'technologies': ['Python', 'Flask', 'HTML5', 'CSS3', 'JavaScript', 'Git', 'Render'],
-        'live_demo': 'https://tethi-portfolio-17yk.onrender.com',
-        'github_url': 'https://github.com/Tethi04/flask-portfolio'
+        'github': 'https://github.com/Tethi04/code-treasure-hunt'
     },
     {
         'title': 'Colour Hex Detector',
         'description': 'Instant colour identification tool',
         'details': 'Build a high-speed, client-side web tool using JavaScript and Canvas API to identify precise hex codes from user-uploaded images instantly, without server reliance. Features a clean, intuitive interface.',
-        'technologies': ['JavaScript', 'Canvas API', 'HTML', 'CSS'],
-        'live_demo': '#',
-        'github_url': 'https://github.com/Tethi04/Colour-Hex-Detector'
+        'technologies': ['JavaScript', 'Canvas API'],
+        'live_demo': '',
+        'github': 'https://github.com/Tethi04/Colour-Hex-Detector'
     },
     {
         'title': 'Mood Tracker Website',
         'description': 'Daily mood tracking website',
         'details': 'Created a personal mood tracking website using HTML, CSS, and JavaScript with Local Storage for persistent data. Demonstrates front-end stage management, allowing users to review tracking history across sessions.',
         'technologies': ['HTML', 'CSS', 'JavaScript', 'Local Storage'],
-        'live_demo': '#',
-        'github_url': 'https://github.com/Tethi04/Mood-Tracker-Website'
+        'live_demo': '',
+        'github': 'https://github.com/Tethi04/Mood-Tracker-Website'
     },
     {
         'title': 'Animated Birthday Greeting',
         'description': 'Re-usable greeting card template',
         'details': 'Built a dynamic, animated greeting website using HTML and modern CSS animations/transitions. Optimized the code as a public template for easy re-use and customization by other developers.',
         'technologies': ['HTML', 'CSS', 'CSS Animations'],
-        'live_demo': '#',
-        'github_url': 'https://github.com/Tethi04/Animated-Birthday-Greeting'
+        'live_demo': '',
+        'github': 'https://github.com/Tethi04/Animated-Birthday-Greeting'
     }
 ]
 
@@ -126,5 +118,4 @@ def contact():
     return render_template('contact.html', personal_info=personal_info)
 
 if __name__ == '__main__':
-
     app.run(debug=True)
