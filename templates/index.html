@@ -2,10 +2,16 @@
 <section class="hero">
     <div class="container">
         <div class="hero-content">
+            <!-- Add profile picture here -->
+            <div class="profile-picture">
+                <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Tethi Biswas" class="profile-img">
+            </div>
             <h1>Hello, I'm <span class="highlight">{{ personal_info.name }}</span></h1>
             <p class="hero-subtitle">Computer Science Student & Web Developer</p>
             <p class="hero-description">
-                Passionate about creating innovative web solutions and exploring new technologies. Currently pursuing Bachelor's in Computer Science with hands-on experience in full-stack development and problem-solving.
+                Passionate about creating innovative web solutions and exploring new technologies. 
+                Currently pursuing Bachelor's in Computer Science with hands-on experience in 
+                full-stack development and problem-solving.
             </p>
             <div class="hero-contact">
                 <p><i class="fas fa-envelope"></i> {{ personal_info.email }}</p>
@@ -81,3 +87,4 @@
     </div>
 </section>
 {% endblock %}
+
