@@ -37,3 +37,42 @@
     </div>
 </section>
 {% endblock %}
+{% extends "base.html" %}
+
+{% block content %}
+<section class="projects-hero">
+    <div class="container">
+        <h1>My Projects</h1>
+        <p>Demonstrated Application of DSA and Web Development</p>
+    </div>
+</section>
+
+<section class="projects-section">
+    <div class="container">
+        <div class="projects-grid">
+            {% for project in projects %}
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>{{ project.title }}</h3>
+                    <p class="project-description">{{ project.description }}</p>
+                </div>
+                <div class="project-details">
+                    <p>{{ project.details }}</p>
+                </div>
+                <div class="project-technologies">
+                    {% for tech in project.technologies %}
+                    <span class="tech-tag">{{ tech }}</span> 
+                    {% endfor %}
+                </div>
+                <div class="project-links">
+                    {% if project.live_demo %}
+                    <a href="{{ project.live_demo }}" target="_blank" class="btn btn-primary">Live Demo</a>
+                    {% endif %}
+                    <a href="{{ project.github }}" target="_blank" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
