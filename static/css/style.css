@@ -414,3 +414,34 @@ h2 {
 .profile-img:hover {
     transform: scale(1.05);
 }
+
+/* Project Links */
+.project-links {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-links .btn {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+}
+
+.project-links .btn-primary {
+    background: #27ae60;
+}
+
+.project-links .btn-primary:hover {
+    background: #219a52;
+}
+
+.project-links .btn-secondary {
+    background: #95a5a6;
+    color: white;
+    border: none;
+}
+
+.project-links .btn-secondary:hover {
+    background: #7f8c8d;
+}
