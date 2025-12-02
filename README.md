@@ -8,10 +8,16 @@ https://tethi-portfolio-17yk.onrender.com
  
  https://tethi-portfolio.onrender.com
 
- ##QR code:
- you can scan the QR code 👇🏻 to open my portfolio too.
- 
+ ## 📱 Quick Access
+
+Scan the QR code below to visit my portfolio on any device:
+
+<p align="center">
  <img src="https://github.com/Tethi04/flask-portfolio/blob/main/Portfolio.png" width="200" />
+</p>
+
+*Click or scan to open*
+
 
 ## Features
 
@@ -80,6 +86,7 @@ MIT License
 4. Run: `python app.py`
 
 5. Visit `http://localhost:5000` in your browser
+
 
 
 
